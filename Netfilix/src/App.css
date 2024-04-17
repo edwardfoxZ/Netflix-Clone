@@ -1,0 +1,163 @@
+/* Main Page */
+
+.Main {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.64) 0%,
+      rgba(0, 0, 0, 0.616) 75%,
+      rgba(40, 26, 26, 0.696) 100%
+    ),
+    url("https://i.pinimg.com/originals/f9/19/33/f919335cefe7dc61cff7294d32af858f.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.Navbar {
+  width: 100%;
+  max-height: 7%;
+  position: fixed;
+  z-index: 1030;
+  top: 0;
+}
+
+.Navbar-background {
+  background-color: transparent;
+  transition: 1s all;
+}
+
+.Navbar-changed {
+  background-color: #222222e2;
+  transition: 1s all;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.title-main {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+
+.btn-danger {
+  background-color: #c11119;
+}
+
+.signUp {
+  width: 22%;
+}
+
+/* SingUp Page */
+
+.SingUp-Page,
+.LogIn-Page {
+  width: 100%;
+  height: 100%;
+  background-color: #737373;
+  position: relative;
+}
+
+.SingUp-card {
+  background-color: #222222;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 20%;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+
+.form-control {
+  background-color: #383838;
+  border: #383838;
+}
+.form-control::placeholder {
+  color: white;
+}
+.form-control:hover {
+  background-color: #383838;
+}
+.form-control:focus {
+  background-color: #383838;
+  color: white;
+}
+
+.floatingPassword {
+  color: white;
+  background-color: transparent;
+}
+
+.form-floating {
+  color: white;
+}
+
+.submit {
+  width: 100%;
+}
+
+/* Payment Page */
+
+.Payment-page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.Basic-payment {
+  width: 22%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  border: 1px solid;
+  border-color: #c8c8c8;
+  border-radius: 5px;
+}
+
+.Premium-payment {
+  width: 22%;
+  position: absolute;
+  top: 25%;
+  left: 48%;
+  border: 1px solid;
+  border-color: #c8c8c8;
+  border-radius: 5px;
+}
+
+.header-card {
+  width: 100%;
+  border: 0 solid;
+  border-radius: 5px;
+  background: rgb(50, 124, 241);
+  background: linear-gradient(
+    270deg,
+    rgba(50, 124, 241, 1) 51%,
+    rgba(13, 170, 207, 1) 100%
+  );
+}
+
+.Purchase-position {
+  width: 45%;
+  position: absolute;
+  top: 70%;
+  left: 25%;
+}
+
+/* Browse-page */
+
+.Play-MoreInfo-btn-position {
+  width: 14%;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.btn-secondary-back {
+  background-color: #7373738b;
+  border: 1px solid #7373738b;
+}
+
+/* Movie Lists */
